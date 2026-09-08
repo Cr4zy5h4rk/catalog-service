@@ -1,0 +1,13 @@
+entity Product {
+  name String required
+  price BigDecimal required
+  stock Integer required
+}
+
+entity Category {
+  name String required
+}
+
+relationship OneToMany {
+  Category to Product
+}

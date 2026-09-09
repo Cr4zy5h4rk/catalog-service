@@ -6,7 +6,7 @@ spring:
       kafka:
         binder:
           replicationFactor: 1
-          auto-create-topics: false
+          auto-create-topics: false # true if u want to create topics automatically
           brokers: localhost:9092
       bindings:
         binding-out-0:

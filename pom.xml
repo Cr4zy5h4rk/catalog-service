@@ -744,7 +744,7 @@
                             </platforms>
                         </from>
                         <to>
-                            <image>catalog:latest</image>
+                          <image>docker.io/cr4zy5h4rk/catalog-service:latest</image>
                         </to>
                         <container>
                             <entrypoint>
